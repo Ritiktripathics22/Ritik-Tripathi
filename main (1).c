@@ -10,10 +10,10 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 int main()
 {
-   int a,b,c;
-   printf("enter two angles of a triangle\n");
-   scanf("%d%d",&a,&b);
-   c=180-(a+b);
-   printf("third angle of triangle=%d",c);
-    return 0;
+float fahrenheit, celsius;
+scanf("%f",&celsius);
+fahrenheit=((celsius*9)/5)+32;
+printf("\n\n temperature in farhenheit is: %f",fahrenheit);
+  return 0;
+  
 }
