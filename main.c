@@ -10,8 +10,11 @@ Write your code in this editor and press "Run" button to compile and execute it.
 
 int main()
 {
-    int a,b;
-    scanf("%d%d",&a,&b);
-    printf("sum=%d,sub=%d,mult=%d,div=%f",a+b,a-b,a*b,a/(float)b);
-    return 0;
+  float a,area;
+  printf("enter side of triangle :-");
+  scanf("%f",&a);
+  area=(sqrt(3)/4)*a*a;
+  printf("%f",area);
+  return 0;
+  
 }
